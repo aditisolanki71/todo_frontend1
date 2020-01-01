@@ -1,0 +1,28 @@
+.table
+{
+    text-align: center;
+    color: #FFF;
+    display:flex;
+    justify-content: center;
+}
+.def-button {
+    border:none;
+    background: none;
+    font-size: 20px;
+}
+
+.table {
+    border-collapse: collapse;
+   
+}
+.table >  th {
+    height: 30px;
+  }
+.table >  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table > tr:hover {background-color:gray;}
+  
